@@ -21,7 +21,7 @@ export default function LoginPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100 p-4">
       <Card className="w-full max-w-md p-6 shadow-lg">
-        <h2 className="text-2xl font-bold text-center mb-6">Mock Login</h2>
+        <h2 className="text-2xl font-bold text-center mb-6">Login Page</h2>
         <form onSubmit={handleLogin} className="space-y-4">
           <Input 
             placeholder="Enter username" 
